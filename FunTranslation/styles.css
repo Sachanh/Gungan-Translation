@@ -23,6 +23,7 @@
     color:blueviolet;
   }
   
+  
   /**Navigation text styling **/
   .txtstyle{
     color:red;
@@ -114,4 +115,10 @@
       float: none;
       margin: 2px auto;
     }
+    .img1{
+          width: 100%;
+        
+    }
   }
+
+  
