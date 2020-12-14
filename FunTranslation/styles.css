@@ -1,13 +1,13 @@
-:root {
-    --minionColor: #f5e050;
-    
+
+
+  body{
+    background-image: url('https://static.wikia.nocookie.net/starwars/images/3/31/Gungan_NEGAS.jpg/revision/latest?cb=20070225162243');
   }
   
   /**Navigation css**/
   .navigation {
     text-align: center;
     padding: 1rem;
-    background-color: var(--minionColor);
     display: block;
   
   
@@ -33,7 +33,6 @@
     text-align:center;
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
-    background-color: var(--minionColor);
     opacity: 50%;
   }
   
@@ -58,10 +57,9 @@
   }
   /** Translation Button  Styling**/
   .btn {
-    margin-left: 550px;
+    margin-left: 600px;
     padding: 0.5rem 2rem;
     text-align: center;
-    background-color: var(--minionColor);
     color:black;
     font-family: 'Indie Flower', cursive;
     font-style: italic;
@@ -73,9 +71,17 @@
   
   .output-div{
     margin-left: 500px;
+    margin-right: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
-    color: green;
+    color:whitesmoke;
+    background-color: sienna;
+    text-align: center;
+
+  }
+
+  #output{
+    background-color:lightcoral;
   }
   
   /** Footer Styling**/
@@ -83,7 +89,6 @@
     text-align: center;
     padding: 1rem;
     margin: auto;
-    background-color: var(--minionColor);
     display: block;
   
   }
@@ -93,10 +98,13 @@
     font-weight: 600;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
+    color:black;
+    background-color: white;
   }
   .footer p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvHGPIemhXeOfrgLsUnUubKbF9GEeOnNFcCg&usqp=CAU');
   }
   
   @media(max-width:700px){
